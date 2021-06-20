@@ -1,0 +1,183 @@
+﻿
+/*body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=submit] {
+    width: auto;
+}
+
+input, textarea {
+    font-size: 18px;
+    width: 200px;
+}
+
+label {
+    font-size: 16px;
+}
+
+#theForm {
+    background-color: #d0d0d0;
+}
+
+    #theForm input[type=submit] {
+        background-color: green;
+        color: white;
+    }
+
+ul.product-props {
+    font-size: small;
+}
+
+    ul.product-props li {
+        list-style-type: none;
+    }
+
+.product-info {
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 8px 2px;
+    margin: 2px;
+    width: 450px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+    .product-info img {
+        margin: 3px;
+        float: left;
+        border: 1px solid black;
+        max-width: 150px;
+    }
+
+.popup-form{
+    padding: 5px;
+    border: 2px black inset;
+    display: inline-block;
+
+}
+
+.popup-form input{
+    width: 200px;
+}
+
+.popup-form label{
+    width: 150px;
+    display: inline-block;
+}
+
+.popup-form input[type=checkbox], .popup-form input[type=submit]{
+    width: auto;
+}
+
+menu li{
+    display: inline;
+}
+
+
+    menu li::after{
+        content: ' |';
+    }
+
+    menu li:last-of-type::after{
+        content: "";
+    }*/
+
+
+.navbar-custom-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.text-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: #1e1e1e;
+    color: whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.carouselBox {
+    width: 80%;
+    margin: auto;
+    background-color: transparent !important;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+}
+
+
+.font-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.zoom {
+    transition: transform .5s; /* Animation */
+}
+
+    .zoom:hover {
+        transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+.title-header {
+    font-size: 53px;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.content {
+    color: #c1c1c1;
+    font-size: 20px;
+}
+
+.content-80{
+    width: 80%;
+}
+
+
+.navbar-custom-sz {
+    height: 85px;
+    margin-bottom: 40px;
+}
+
+.img-sz {
+    height: 250px;
+}
+
+.h-fixed-items{
+    overflow: hidden;
+}
+
+.remove-bg{
+    background-color:transparent !important;
+}
+
+.container-top {
+    height: 100vh;
+}
+
+    .container-top img {
+        width: 100%;
+        position: absolute;
+        height: 110vh;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+nav {
+    position: absolute !important;
+    width: 100% !important;
+    display: flex !important;
+    padding: 3rem 10rem !important;
+    justify-content: space-between !important;
+}

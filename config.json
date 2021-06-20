@@ -1,0 +1,19 @@
+{
+  "Colors": {
+    "Favorite": "blue"
+  },
+  "ConnectionStrings": {
+    "WebAppConnectionString": "server=PHMANMSANTILL02\\PHMADMSANTILLAN2;Database=WebAppDB;Integrated Security=true;MultipleActiveResultSets=true;"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsft": "Warning"
+    }
+  },
+  "Tokens": {
+    "Key": "asdadad;asda;sas;ad;asd;sad",
+    "Issuer": "http://localhost:8888",
+    "Audience": "users"
+  }
+}
